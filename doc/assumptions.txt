@@ -1,0 +1,9 @@
+Following were the assumptions made when developing the code:
+
+1. We need proper Object oriented design.
+2. Due to time constraints, we have just happy scenario test case covered by Junit which we can increase.
+3. There are two solutions for conversion.
+    a. Where we used the data provided by GeoLocation website http://download.geonames.org/export/dump/
+    b. Where we are directly hitting google api. Here we understand the limitation of the usage but this is just for illustration purpose.
+4. Incorrect data if any, provided in the input or by GeoLocation would be ignored and would be logged onto console.
+5. This application is written purely using core java api's and except junit, no other third party libraries are involved which means if we consider Google api call, we dont use HttpClient, connection pooling feature and so on.
